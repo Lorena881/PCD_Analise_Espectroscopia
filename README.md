@@ -1,2 +1,2 @@
 # PCD_Analise_Espectroscopia
-Analisa gráficos de espectroscopia e retorna dados importantes a partir disso.
+Analise de gráficos de espectroscopia eletrônica feitos para analisar substancias químicas para fornecer dados importantes de estudo a partir disso.
