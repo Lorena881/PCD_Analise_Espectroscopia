@@ -28,8 +28,7 @@
 
 # Objetivos do Projeto
 * Desenvolver gráficos de absorbância por comprimento de onda
-* Analisar os dados por meio dos gráficos
-* Obter parâmetros das substâncias: cor, fwhm, comprimento máximo e mínimo, energia e comparação dos picos
+* Obter parâmetros das substâncias pela análise dos dados
 * Facilitar a obtenção e compreensão dos dados pelos usuários
 
 # Funcionalidades e Demonstração da Aplicação
