@@ -1,12 +1,12 @@
-![image](https://github.com/Lorena881/PCD_Analise_Espectroscopia/assets/172424739/e6ca9dbf-861e-4b91-91fe-0691270a5773)
+![image](https://github.com/Lorena881/PCD_Analise_Espectroscopia/assets/172424739/e6ca9dbf-861e-4b91-91fe-0691270a5773) 
 
 # <h1 align="center"> Espectrocolors </h1>
+
 # Descrição do Projeto
-<p align="justify"> Projeto desenvolvido para a matéria de Prática de Ciência de Dados ministrada pelo professor Dr. Leandro Nascimento Lemos. Solicitou-se realizar um projeto interdisciplinar que utilizasse a computação para resolver ou otimizar um problema cotidiano, ou das práticas científicas que feitas durante o primeiro semestre do curso. Assim, o grupo optou por desenvolver uma programação de desenvolvimento de gráficos para análise de resultados de absorbância por comprimento de onda obtidos por meio de aparelhoes de Espectroscopia Eletrônica. </p>
-<p align="justify"> Por meio do código serão fornecidos alguns parâmetros, como: cor, meia altura(fwhm), comprimento de onda máximo, comprimento de onda mínimo, energia e comparação de picos de diferentes amostras. Esses parâmetros são importantes para o usuário compreender as características da amostra análisadas no aparelho, facilitando a compreensão dos dados dos gráficos, visto que a cor é relativa ao ponto de maior absorbância, sendo assim, essa deve corresponder a cor complementar que é refletida e vista na solução. Já o FWHM(full width at half maximum) - largura da meia altura - é um parâmetro muito importante para compreender a dispersão das partículas no meio, e com isso observar de a solução gerou um meio mais ou menos monodisperso, por exemplo na análise de nanomateriais, em que o valor do FWHM demonstra de a a preparação da solução gerou o resultado esperado, geralmente um sistema monodisperso - partículas com tamanhos iguais ou próximos. </p>
-<p align="justify"> Os comprimentos de onda máximo e mínimo são importantes para entender as regiões de maior e menor absorbância, e comparar esses dados com outras informações qualitativas ou quantitativas. Com esses dados é possível calcular a energia, sendo ela inversamente proporcional ao comprimento de onda e calculada a partir da equação: E = hc/λ, onde E é energia, h constante de Planck, c a velocidade da luz e λ o comprimento de onda. Também, é possível comparar o pico de diferentes amostras por meio de uma reta tangente entre os picos delas e pela inclinação da reta analisar alguns aspectos e diferenças das amostras. </p>
+<p align="justify"> Projeto desenvolvido para a matéria de Prática de Ciência de Dados ministrada pelo professor Dr. Leandro Nascimento Lemos. Solicitou-se realizar um projeto interdisciplinar que utilizasse a computação para resolver ou otimizar um problema cotidiano, ou das práticas científicas que feitas durante o primeiro semestre do curso. Assim, o grupo optou por desenvolver uma programação de desenvolvimento de gráficos para análise de resultados de absorbância por comprimento de onda obtidos por meio de aparelhoes de Espectroscopia Eletrônica. Para isso, contou também com a ajuda da professora Dra. Valéria Spolon Marangoni, para compreender quais prâmetros eram importantes para análise da espectroscopia e deveriam estar presentes neste projeto. </p>
+<p align="justify"> Dessa forma, por meio do código serão fornecidos alguns parâmetros, como: cor, largura meia altura(fwhm), comprimento de onda máximo, comprimento de onda mínimo, energia e comparação de picos de diferentes amostras. Esses parâmetros são importantes para o usuário compreender as características da amostra análisadas no aparelho, facilitando a compreensão dos dados dos gráficos, visto que a cor é relativa ao ponto de maior absorbância, sendo assim, essa deve corresponder a cor complementar que é refletida e vista na solução. Já o FWHM(full width at half maximum) - largura da meia altura - é um parâmetro muito importante para compreender a dispersão das partículas no meio, e, com isso, observar se o meio da solução é mais ou menos monodisperso. Um sistema monodisperso indica que as partículas tem tamanhos iguais ou similares, ou seja, que estão dispersas igualiariamente pela amostra, por exemplo, na análise de nanomateriais, o valor do FWHM é utilizado para analisar se a preparação da solução produziu o resultado esperado, podendo ser um sistema monodisperso ou polidisperso - partículas de tamanhos diferentes, que se aglutinaram. </p>
+<p align="justify"> Os comprimentos de onda máximo e mínimo são importantes para entender as regiões de maior e menor absorbância, possibilitando a compararação esses dados com outras informações qualitativas ou quantitativas, como a utilização desses dados para calcular a energia. A energia é obtida a partir da equação: E = hc/λ, onde E é energia, h constante de Planck, c a velocidade da luz e λ o comprimento de onda; sendo ela inversamente proporcional ao comprimento de onda. Também, é possível comparar o pico de diferentes amostras por meio de uma reta tangente entre os picos delas e pela inclinação da reta analisar alguns aspectos e diferenças das amostras. </p>
 <p align="justify"> Esse programa busca auxiliar os usuários a desenvolver os gráficos e a obter os dados importantes com mais praticidade, para que se torne mais fácil fazer análises qualitativas e quantitativas das informações obtidas por meio dos Espectrofotômetros. </p>
-* [Título e Capa](#Titulo-e-Imagem-de-capa)
   
 Índice
 =================
@@ -27,7 +27,7 @@
 </h4>
 
 # Objetivos do Projeto
-* Desenvolver gráficos de absrobância por comprimento de onda
+* Desenvolver gráficos de absorbância por comprimento de onda
 * Analisar os dados por meio dos gráficos
 * Obter parâmetros das substâncias: cor, fwhm, comprimento máximo e mínimo, energia e comparação dos picos
 * Facilitar a obtenção e compreensão dos dados pelos usuários
@@ -139,6 +139,7 @@ def energia(arquivo):
     return energia
 ```
 A energia em relação ao comprimento de onda fornece o valor da energia do sistema, em Joules(J). Essa energia é a energia de ionização, ou de emissão em relação ao comprimento de onda, em que, geralmente, é calculada para o comprimento de onda da absorbância máxima, mas também pode ser utilizada para determinar a energia em um comprimento de onda específico.
+
 # Ferramentas Computacionais Utilizadas
 As seguintes ferramentas foram usadas na construção do projeto:
 - [Python 3.9](https://www.python.org/downloads/release/python-390/)
@@ -151,7 +152,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Jupyter](https://nodejs.org/en/)
 
 # Conclusão
-Portanto, esse projeto utilizou de algumas bibliotecas do Python, dentre elas pandas, matplotlib.pyplot e plotlyexpress foram utilizadas para desenvolver os aspectos gráficos; numpy e shutil para as operações, os e glob para adequação do diretório. Assim, foi utilizado de alguns recursos dessas para desenvolver o código, para que fosse possível obter gráficos de linha interativos, ou seja, os dados podem ser obtidos apenas
+Portanto, esse projeto utilizou de algumas bibliotecas do Python, dentre elas: pandas, matplotlib.pyplot e plotlyexpress foram utilizadas para desenvolver os aspectos gráficos; numpy e shutil para as operações; os e glob para adequação do diretório. Assim, foi utilizado de alguns recursos dessas para desenvolver o código, para que fosse possível obter gráficos de linha interativos, o que permite interagir diretamente com o gráfico e obter alguns informações diretamente neles, tornando a compreensão muito mais fácil e dinâmica. Assim, por meio de arquivos padrão das Espectrocopias, conseguiu-se adicionar todos os principais parâmetros que eram visados, além tê-los tornados mais didáticos, com gráficos com cores, pontos de máximo e mínimo com informações sobre comprimento e absorção, e comparações de picos. 
 
 ### Desenvolvedores do Projeto
 | [<img loading="lazy" src="https://github.com/Lorena881/PCD_Analise_Espectroscopia/assets/172424739/d7a1d027-4bfb-4b1e-81b4-5ca44b1e3abc" width=115><br><sub>Sophia Nascimento Silva</sub>](https://github.com/sophianascto) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/172425615?v=4" width= 115><br><sub>Henrique Valente Nogueira </sub>](https://github.com/henriquevalentenogueira) |  [<img loading="lazy" src= "https://github.com/Lorena881/PCD_Analise_Espectroscopia/assets/172424739/89c84357-c055-4c17-914e-e179974e38d5" width=115><br><sub>Lorena Ribeiro Nascimento </sub>](https://github.com/Lorena881) |
@@ -159,7 +160,7 @@ Portanto, esse projeto utilizou de algumas bibliotecas do Python, dentre elas pa
 
 ### Professores
 
-| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/1894434?v=4" width=115><br><sub>Leandro Nascimento Lemos</sub>](https://github.com/llemos) <p><sub>[Lattes](https://buscatextua.l.cnpq.br/buscatextual/visualizacv.do)   </sub></p> |  [<img loading="lazy" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4252367Y6" width=115><br><sub> Valéria Spolon Marangoni </sub>] <p><sub>[Lattes](https://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4252367Y6) </p></sub>||
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/1894434?v=4" width=115><br><sub>Leandro Nascimento Lemos</sub>](https://github.com/llemos) <p><sub>[Lattes](https://buscatextua.l.cnpq.br/buscatextual/visualizacv.do)   </sub></p> | [<img loading="lazy" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4252367Y6" width=85><br><sub> Valéria Spolon Marangoni </sub>](https://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4252367Y6) <p><sub>[Lattes](https://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4252367Y6) </p></sub>||
 | :---: | :---: | :---: |
 
 <img loading="lazy" src="https://github.com/Lorena881/PCD_Analise_Espectroscopia/assets/172424739/c930826b-3189-41d5-b4cc-a33dbf3ee611"> 
