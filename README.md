@@ -8,7 +8,7 @@
 
 ## Sobre a Espectroscopia
 <p align="justify"> Espectroscopia pode ser descrita como a interação da radiação eletromagnética com a matéria, ou de uma grandeza em relação à frequência ou comprimento de onda, em que são utilizados espectrofotômetros para comparar a radiação incidida e emitida. Para esse projeto foi utilizado dados do espectrofotômetro com comprimentos de onda entre o ultravioleta e o visível, que proporcionam a transição do elétron para diferentes níveis de energia dependendo da energia fornecida e emitida em cada comprimento de onda. </p>
-<p align="justify"> A cor é relativa ao ponto de maior absorbância. Sendo assim, essa deve corresponder a cor complementar que é refletida e vista na solução. Já o FWHM (full width at half maximum) - largura da meia altura - é um parâmetro muito importante para compreender a dispersão das partículas no meio e, com isso, observar se o meio da solução é mais ou menos monodisperso. Um sistema monodisperso indica que as partículas têm tamanhos iguais ou similares, ou seja, que estão dispersas igualmente pela amostra. Na análise de nanomateriais, por exemplo, o valor do FWHM é utilizado para analisar se a preparação da solução produziu o resultado esperado, podendo ser um sistema monodisperso ou polidisperso - partículas de tamanhos diferentes, que se aglutinaram. </p>
+<p align="justify"> Em análises, geralmente se busca a cor relativa ao ponto de maior absorbância, pois essa deve corresponder a cor complementar, que é refletida e vista na solução. Já o FWHM (full width at half maximum) - largura da meia altura - é um parâmetro muito importante para compreender a dispersão das partículas no meio e, com isso, observar se o meio da solução é mais ou menos monodisperso. Um sistema monodisperso indica que as partículas têm tamanhos iguais ou similares, ou seja, que estão dispersas igualmente pela amostra. Na análise de nanomateriais, por exemplo, o valor do FWHM é utilizado para analisar se a preparação da solução produziu o resultado esperado, podendo ser um sistema monodisperso ou polidisperso - partículas de tamanhos diferentes, que se aglutinaram. </p>
 <p align="justify"> Os comprimentos de onda máximo e mínimo são importantes para entender as regiões de maior e menor absorbância, possibilitando a comparação desses dados com outras informações qualitativas ou quantitativas, como a utilização desses para calcular a energia. A energia é obtida a partir da equação: E = hc/λ, onde E é energia, h constante de Planck, c a velocidade da luz e λ o comprimento de onda; sendo ela inversamente proporcional ao comprimento de onda. Também é possível comparar o pico de diferentes amostras por meio de uma reta tangente entre os picos delas e pela inclinação da reta analisar alguns aspectos e diferenças das amostras. </p>
   
 Índice
@@ -21,7 +21,7 @@
 * [Conclusão](#Conclusão)
 * [Referências](#Referências)
 * [Desenvolvedores do Projeto](#Desenvolvedores-do-projeto)
-* [Agradecimentos e Colaborações](#Agradecimentos-e-colaborações)
+* [Professores](#Professores)
 <!--te-->
 
 # Status do projeto
@@ -342,6 +342,7 @@ plotar_grafico('Lorena_Emanuel_Azul.txt', x='Wavelength (nm)', y='Absorbance', x
 ```
 Para isso, foi utilizado a base do gráfico clássico juntamente com as alterações, mostradas no código acima, para a biblioteca de desenvolvimento de gráficos interativos, plotly.
 
+
 # Ferramentas Computacionais Utilizadas
 As seguintes ferramentas foram usadas na construção do projeto:
 - [Python 3.9](https://www.python.org/downloads/release/python-390/)
@@ -354,7 +355,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Jupyter](https://nodejs.org/en/)
 
 # Conclusão
-Portanto, esse projeto utilizou de algumas bibliotecas do Python, dentre elas: pandas, matplotlib.pyplot e plotlyexpress foram utilizadas para desenvolver os aspectos gráficos; numpy e shutil para as operações; os e glob para adequação do diretório. Assim, foi utilizado de alguns recursos dessas para desenvolver o código, para que fosse possível obter gráficos de linha interativos, o que permite interagir diretamente com o gráfico e obter alguns informações diretamente neles, tornando a compreensão muito mais fácil e dinâmica. Assim, por meio de arquivos padrão das Espectrocopias, conseguiu-se adicionar todos os principais parâmetros que eram visados, além tê-los tornados mais didáticos, com gráficos com cores, pontos de máximo e mínimo com informações sobre comprimento e absorção, e comparações de picos. 
+Portanto, esse projeto utilizou de algumas bibliotecas do Python, dentre elas: pandas, matplotlib.pyplot e plotlyexpress foram utilizadas para desenvolver os aspectos gráficos; numpy e shutil para as operações; os e glob para adequação do diretório. Assim, foi utilizado de alguns recursos dessas para desenvolver o código, para que fosse possível obter gráficos de linha interativos, o que permite interagir diretamente com o gráfico e obter alguns informações diretamente neles, como a cor de cada comprimento, tornando a compreensão muito mais fácil e dinâmica. Assim, por meio de arquivos padrão das Espectrocopias, conseguiu-se adicionar todos os principais parâmetros que eram visados, além tê-los tornados mais didáticos, com gráficos com cores, pontos de máximo e mínimo com informações sobre comprimento e absorção, e comparações de picos. 
+
+### Referências
+
 
 ### Desenvolvedores do Projeto
 | [<img loading="lazy" src="https://github.com/Lorena881/PCD_Analise_Espectroscopia/assets/172424739/d7a1d027-4bfb-4b1e-81b4-5ca44b1e3abc" width=115><br><sub>Sophia Nascimento Silva</sub>](https://github.com/sophianascto) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/172425615?v=4" width= 115><br><sub>Henrique Valente Nogueira </sub>](https://github.com/henriquevalentenogueira) |  [<img loading="lazy" src= "https://github.com/Lorena881/PCD_Analise_Espectroscopia/assets/172424739/89c84357-c055-4c17-914e-e179974e38d5" width=115><br><sub>Lorena Ribeiro Nascimento </sub>](https://github.com/Lorena881) |
