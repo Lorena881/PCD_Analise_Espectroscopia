@@ -1,6 +1,12 @@
 ![image](https://github.com/Lorena881/PCD_Analise_Espectroscopia/assets/172424739/e6ca9dbf-861e-4b91-91fe-0691270a5773) 
 
-# <h1 align="center"> Espectrocolors </h1>
+<div align="center">
+
+![logo](https://github.com/Lorena881/PCD_Analise_Espectroscopia/assets/172424739/5c83607f-e1ed-485e-8c08-476f737cf8c4)
+
+</div>
+
+# <h1 align="center"> Desenvolvimento de gráficos interativos e dados de Espectrocopia Eletrônica </h1>
 
 # Descrição do Projeto
 <p align="justify"> Projeto desenvolvido para a matéria de Práticas em Ciência de Dados ministrada pelo professor Dr. Leandro Nascimento Lemos. Solicitou-se realizar um projeto interdisciplinar que utilizasse a computação para resolver ou otimizar um problema cotidiano, ou das práticas científicas feitas durante o primeiro semestre do curso (Bacharelado em Ciência e Tecnologia). Assim, o grupo optou por desenvolver uma programação de desenvolvimento de gráficos para análise de resultados de absorbância por comprimento de onda obtidos por meio de aparelhos de Espectroscopia Eletrônica. Para isso, contou também com a ajuda da professora Dra. Valéria Spolon Marangoni para compreender quais parâmetros eram importantes para análise da espectroscopia e deveriam estar presentes neste projeto. </p>
@@ -342,6 +348,8 @@ plotar_grafico('Lorena_Emanuel_Azul.txt', x='Wavelength (nm)', y='Absorbance', x
 ```
 Para isso, foi utilizado a base do gráfico clássico juntamente com as alterações, mostradas no código acima, para a biblioteca de desenvolvimento de gráficos interativos, plotly.
 
+[2dd1e8bc-e6ed-4b7a-8a81-dd8ba43c0ed7.webm](https://github.com/Lorena881/PCD_Analise_Espectroscopia/assets/172424739/bda2345a-6bb9-4bc7-a25b-f56364d08905)
+
 
 # Ferramentas Computacionais Utilizadas
 As seguintes ferramentas foram usadas na construção do projeto:
@@ -357,14 +365,23 @@ As seguintes ferramentas foram usadas na construção do projeto:
 # Conclusão
 Portanto, esse projeto utilizou de algumas bibliotecas do Python, dentre elas: pandas, matplotlib.pyplot e plotlyexpress foram utilizadas para desenvolver os aspectos gráficos; numpy e shutil para as operações; os e glob para adequação do diretório. Assim, foi utilizado de alguns recursos dessas para desenvolver o código, para que fosse possível obter gráficos de linha interativos, o que permite interagir diretamente com o gráfico e obter alguns informações diretamente neles, como a cor de cada comprimento, tornando a compreensão muito mais fácil e dinâmica. Assim, por meio de arquivos padrão das Espectrocopias, conseguiu-se adicionar todos os principais parâmetros que eram visados, além tê-los tornados mais didáticos, com gráficos com cores, pontos de máximo e mínimo com informações sobre comprimento e absorção, e comparações de picos. 
 
-### Referências
+# Referências
+* BANAS, Derek. Plotly Tutorial 2023, 2020. Disponível em: <https://www.youtube.com/watch?v=GGL6U0k8WYA&t=14s>. Acesso em: 25 jun. 2024.
+* Espectroscopia, 2020. Disponível em: <https://pt.wikipedia.org/wiki/Espectroscopia>.
+* Espectroscopia: interação entre luz e matéria (artigo). Disponível em: <https://pt.khanacademy.org/science/chemistry/electronic-structure-of-atoms/bohr-model-hydrogen/a/spectroscopy-interaction-of-light-and-matter>.
+* Getting Started with Plotly. Disponível em: <https://plotly.com/python/getting-started/>.
+* NEURALNINE. Matplotlib Full Python Course - Data Science Fundamentals, 2023. Disponível em: <https://www.youtube.com/watch?v=OZOOLe2imFo>.
+* NEURALNINE. Professional 3D Plotting in Matplotlib, 2021. Disponível em: <https://www.youtube.com/watch?v=fAztJg9oi7s>.
+* OPENAI. ChatGPT . Disponível em: <https://chatgpt.com/>.
+* Plotly Python Graphing Tutorial - Python Tutorial. Disponível em: <https://pythonbasics.org/plotly/>. Acesso em: 25 jun. 2024.
+* Python Plotting Tutorial w/ Matplotlib & Pandas (Line Graph, Histogram, Pie Chart, Box & Whiskers). Disponível em: <https://www.youtube.com/watch?v=0P7QnIQDBJY>.
 
 
-### Desenvolvedores do Projeto
+# Desenvolvedores do Projeto
 | [<img loading="lazy" src="https://github.com/Lorena881/PCD_Analise_Espectroscopia/assets/172424739/d7a1d027-4bfb-4b1e-81b4-5ca44b1e3abc" width=115><br><sub>Sophia Nascimento Silva</sub>](https://github.com/sophianascto) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/172425615?v=4" width= 115><br><sub>Henrique Valente Nogueira </sub>](https://github.com/henriquevalentenogueira) |  [<img loading="lazy" src= "https://github.com/Lorena881/PCD_Analise_Espectroscopia/assets/172424739/89c84357-c055-4c17-914e-e179974e38d5" width=115><br><sub>Lorena Ribeiro Nascimento </sub>](https://github.com/Lorena881) |
 | :---: | :---: | :---: |
 
-### Professores
+# Professores
 
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/1894434?v=4" width=115><br><sub>Leandro Nascimento Lemos</sub>](https://github.com/llemos) <p><sub>[Lattes](https://buscatextua.l.cnpq.br/buscatextual/visualizacv.do)   </sub></p> | [<img loading="lazy" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4252367Y6" width=85><br><sub> Valéria Spolon Marangoni </sub>](https://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4252367Y6) <p><sub>[Lattes](https://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4252367Y6) </p></sub>||
 | :---: | :---: | :---: |
